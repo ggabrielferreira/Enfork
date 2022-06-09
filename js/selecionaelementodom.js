@@ -1,3 +1,3 @@
 function selecionarElemento (elemento){
-    document.querySelector(elemento);
+    return document.querySelector(elemento);
 };
