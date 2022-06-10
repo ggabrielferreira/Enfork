@@ -9,4 +9,5 @@ selecionarElemento('#adicionar').addEventListener('click', function(){
     p = document.createElement('p');
     p.textContent = novaPalavra;
     selecionarElemento('#palavras').appendChild(p);
+    return palavras
   });
